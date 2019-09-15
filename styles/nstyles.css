@@ -1,0 +1,182 @@
+img{
+
+}
+h3{
+  color:#23a393;
+  text-align: center;
+  padding-top:20px;
+}
+
+h1{
+  text-align: center;
+  text-decoration: none;
+}
+h5, p, h4{
+  text-align: center;
+}
+
+h6{
+  display: inline;
+  padding: 30px;
+  text-align: center;
+}
+
+hr{
+  width:200px;
+  color:red;
+}
+
+ul{
+  list-style-type: none;
+  margin: 22% 10% 5% 28%;
+
+}
+li{
+  padding-left: 1rem;
+}
+
+ /* nav bar */
+ #head-container{
+  height:350px;
+  width: 100%;
+  background-color: #8cbeaa;
+}
+
+#information-section{
+  background-color: #8cbeaa;
+}
+
+.logo-img{
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  margin: 80px auto auto 200px;
+}
+.nav-title{
+  color: #e23e57;
+  text-align: center;
+  margin:150px 500px auto 0px;
+
+}
+
+/* team decoration */
+.profile-pic{
+  height: 200px;
+  width: 200px;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin: 22% 22% 5% 22%;
+  position: relative;
+}
+
+.line1{
+  border-top:2px dashed #6e9086;
+  width: 15%;
+}
+.title{
+  text-align: center;
+}
+.box:hover{
+  background-color: #b6e1e0;
+}
+.box20{
+  height: 300px;
+  width: 25%;
+
+}
+
+/* news secton */
+
+.carousel-item{
+
+height: 600px;
+background-color: #8cbeaa;
+}
+
+.news-box{
+  height: 150px;
+  background-color: #8cbeaa;
+}
+.menter-box{
+  background-color: #8cbeaa;
+
+}
+.menter-title{
+  text-align: center;
+}
+
+.mentor-pic{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.gallery-picture{
+  height: 400px;
+  width: 60%;
+  margin: 2% 35% 2% 20%;
+}
+.event-box{
+  background-color:#8cbeaa;
+}
+
+
+/* about section */
+.about-box{
+  height: 300px;
+  width: auto;
+  background-color: #8cbeaa;
+
+}
+
+/* bottom section */
+
+.footer{
+  background-color: #3b5b5d;
+}
+
+.about{
+  text-align: center;
+  padding-top: 20px;
+  color: #28cc9e;
+}
+.contacts{
+  font-size: 1rem;
+  color: #fff;
+}
+
+.credits{
+  text-align: center;
+  color: #757a79;
+  height: 20px;
+  padding-bottom: 40px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+  #head-container{
+    height: 450px;
+
+  }
+.logo-img{
+  margin-left: 15%;
+  margin-top: 20%;
+  text-align: center;
+}
+
+  .nav-title{
+    margin: 50px 0 0 50px;
+  text-align: center;
+
+  }
+  .box20{
+    visibility: hidden;
+  }
+
+
+
+  }
